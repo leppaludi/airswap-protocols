@@ -27,6 +27,7 @@ export const chainIds: Record<string, number> = {
   FUJI: 43113,
   AVALANCHE: 43114,
   MUMBAI: 80001,
+  TAIKOA1: 167003,
 }
 
 export const chainNames: Record<number, string> = {
@@ -44,9 +45,10 @@ export const chainNames: Record<number, string> = {
   43114: 'AVALANCHE',
   80001: 'MUMBAI',
   421613: 'ARBITRUMGOERLI',
+  167003: 'TAIKOA1',
 }
 
-export const mainnets: number[] = [1, 30, 56, 137, 42161, 43114]
+export const mainnets: number[] = [1, 30, 56, 137, 42161, 43114, 167003]
 
 export const testnets: number[] = [5, 31, 97, 80001, 421613, 43113]
 
@@ -64,6 +66,7 @@ export const chainCurrencies: Record<string, string> = {
   43113: 'AVAX',
   43114: 'AVAX',
   80001: 'MATIC',
+  167003: 'ETH',
 }
 
 export const wrappedTokenAddresses: Record<string, string> = {
@@ -80,6 +83,7 @@ export const wrappedTokenAddresses: Record<string, string> = {
   43114: '0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7',
   80001: '0x9c3C9283D3e44854697Cd22D3Faa240Cfb032889',
   421613: '0xee01c0cd76354c383b8c7b4e65ea88d00b06f36f',
+  167003: '0x7bEC4590FbDC4974baDC71296B83220638A336C9',
 }
 
 export const stakingTokenAddresses: Record<string, string> = {
@@ -96,6 +100,7 @@ export const stakingTokenAddresses: Record<string, string> = {
   43114: '0x702d0f43edd46b77ea2d48570b02c328a20a94a1',
   80001: '0xd161ddcfcc0c2d823021aa26200824efa75218d1',
   421613: '0x71070c5607358fc25e3b4aaf4fb0a580c190252a',
+  167003: '0x480Ea177d47dDB93D4c98c50C5fBF0EFB0B5C4f6',
 }
 
 export const etherscanDomains: Record<string, string> = {
@@ -112,6 +117,7 @@ export const etherscanDomains: Record<string, string> = {
   43114: 'snowtrace.io',
   80001: 'mumbai.polygonscan.com',
   421613: 'goerli.arbiscan.io',
+  167003: 'l2explorer.a1.taiko.xyz',
 }
 
 export enum TokenKinds {

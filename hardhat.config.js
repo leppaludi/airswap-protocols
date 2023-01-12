@@ -13,6 +13,11 @@ require('solidity-coverage')
  */
 module.exports = {
   networks: {
+    taikoa1: {
+      url: 'https://l2rpc.a1.taiko.xyz',
+      chainId: 167003,
+      accounts: process.env.PRIVATE_KEY ? [process.env.PRIVATE_KEY] : undefined,
+    },
     goerli: {
       url: 'https://goerli.infura.io/v3/' + process.env.INFURA_API_KEY,
       accounts: process.env.PRIVATE_KEY ? [process.env.PRIVATE_KEY] : undefined,
